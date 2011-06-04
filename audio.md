@@ -5,7 +5,7 @@
         Protip: you can put code in here to run if HTML audio is unsupported
         like a flash fallback for example.
      </audio>
-
+In it's simplest form, the `audio` tag takes an src attribute, and gives you the default browser styled audio player.
 
 ##Every Audio Attibute
 In addition to supporting the default HTML element attributes which are `id, class, style, tabindex, title, accesskey, contenteditable, dir, draggable, hidden, data-*, lang`, the `audio` tag also supports the following attributes:
