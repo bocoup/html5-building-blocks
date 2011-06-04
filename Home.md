@@ -1,12 +1,12 @@
 ##HTML5: The Open Web Platform
 
-### [[HTML]]
+#### [[HTML|Hyper-Text-Markup-Language]]
 HTML (Hyper Text Markup Language), is the base layer of the web. HTML is a markup language that you use to mark up web pages un tags.
 
-### [[CSS]]
+#### [[CSS|Cascading-Style-Sheets]]
 CSS (Cascading Style Sheets) is the way that we style our markup.
 
-### [[SVG]]
+#### [[SVG|Scalable-Vector-Graphics]]
 SVG (Scalable Vector Graphics) is a markup language like HTML, but instead of describing content in a document, it describes the points and curves of a vector.
 
 ### [[JavaScript]]
@@ -18,10 +18,10 @@ The web browser programming interface is a set of programming interfaces the all
 ### [[Browser Extensions]]
 All of the desktop browser vendors provide extension interfaces for requesting access to things users have to say yes to through an installation process. For example, you can get access a users bookmarks, a screenshot taking interface, override default pages, and so forth.
 
-### [[MathML]]
+#### [[MathML|Math-Markup-Language]]
 MathML (Math Markup Language), is a markup language for writing mathematical notations.
 
-### [[HTTP]]
+#### [[HTTP|Hyper-Text-Transfer-Protocol]]
 HTTP (Hypertext Transfer Protocol) is a RESTful protocol for transferring hypertext. This is the protocol that we use to do ajax, and so it is important to know it.
 
 ### [[Meta Data]]
