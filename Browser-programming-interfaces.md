@@ -1,7 +1,7 @@
 ##[[Manipulation & Traversal]]
 
 ##[[Events]]
-Bind to user events, and clean up after yourself: [[Add Event Listener]], [[Remove Event Listener]], [[drag/drop]], [[hashchange]], [[popstate]], [[mouse events]], [[message events]], [[keyboard events]], [[Touch events]]
+Bind to user events, and clean up after yourself: [[Add Event Listener]], [[Remove Event Listener]], [[Mouse Events]], [[Keyboard Events]], [[Navigation Events]], [[Window Events]], [[Form Events]], [[Touch Events]], [[User Interface Events]], [[Mutation Events]], [[Media Events]]
 
 ##[[Media]]
 Programmatically interact with audio, video and images: [[Audio interface]], [[Video interface]], [[Image interface]], [[Audio data and web audio interfaces]], [[Media Capture]]
