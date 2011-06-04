@@ -1,6 +1,15 @@
 <a href="http://www.w3.org/2010/05/video/mediaevents.html">W3C Media Events Demo Page</a>
 
 ##Every Media Event:
+Bind to these events with
+
+    document
+      .querySelector('audioselector')
+      .addEventListener('eventname', function( eventObj ){
+        // do stuff in response to the event
+        // log eventObj, it has interesting stuff
+      })
+      
 
 ###abort
 Sent when playback is aborted; for example, if the media is playing and is restarted from the beginning, this event is sent.
