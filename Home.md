@@ -23,7 +23,7 @@ JavaScript is a programming language. We use JavaScript to write software in the
 The web browser programming interface is a set of programming interfaces the allow web developers to use JavaScript to interact with the user's operating system.
 
 ### [[Browser Extensions]]
-All of the desktop browser vendors provide extension interfaces for requesting access to things users have to say yes to through an installation process. For example, you can get access a users bookmarks, a screenshot taking interface, override default pages, and so forth.
+All of the browsers provide provide their own proprietary extension interface for requesting access to secured parts of a users' computer. For example, you can get access a user's bookmarks, a screenshot taking interface, override default pages, and so forth.
 
 #### [[MathML|Math-Markup-Language]]
 MathML (Math Markup Language), is a markup language for writing mathematical notations.
