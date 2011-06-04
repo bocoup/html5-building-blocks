@@ -3,6 +3,7 @@
     * Add Event Listener
     * Remove Event Listener
 ##[[Media]]
+`[[Audio interface]], [[Video interface]], [[Image interface]], [[Audio data and web audio interfaces]], [[Media Capture]]`
 Embed audio, video and images.
 
 ##[[Graphics]]
