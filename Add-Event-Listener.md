@@ -1,5 +1,12 @@
 ##Usage
-object.addEventListener('eventType', callbackFunction, useCaptuer)
+object.addEventListener('eventType', callbackFunction, useCapture)
+eg:
+    
+    object
+      .addEventListener('eventType', function( eventObj ){
+        // write code to respond to event in here
+        // log eventObj to see the cool stuff on the event object
+      }, false);
 
 * type: A string representing the event type to listen for.
 
