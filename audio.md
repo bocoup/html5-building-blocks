@@ -1,5 +1,6 @@
-##Usage
+This is an overview of the HTML markup available for working with video. For a programming interface to the `video` tag, see [[video interface]].
 
+##Usage
     <audio src="http://example.com/audiofile.format">
         Text to show if audio is not supported.
         Protip: you can put code in here to run if HTML audio is unsupported
