@@ -7,7 +7,7 @@ Here is an example of a JavaScript Object. This object is called an object liter
     {
       property: 'value',
       secondPropery: {
-        property: 'this is a property of an object which is a property of the parent object literal'  
+        property: 'this is a property of the secondProperty object which is a property of the parent object literal'  
       }
     }
 
