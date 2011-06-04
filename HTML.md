@@ -51,7 +51,7 @@ Additional semantics are attached to the title attributes of the &lt;link&gt;, &
 
 ###accesskey
 This attribute provides a hint for generating a keyboard shortcut for the current element. This attribute consists of a space-separated list of characters (one single Unicode code point). The browser should use the first one that exists on the computer keyboard layout.
-HTML 4 In previous versions of HTML, only one character could be specified. Also it wasn't a global attribute and could be applied only to <a>, <area>, <button>, <input>, <label>, <legend> and <textarea>.
+
 
 ###contenteditable
 This enumerated attribute indicates if the element should be editable by the user. If so, the browser modifies its widget to allow editing. The attribute must take one of the following values:
