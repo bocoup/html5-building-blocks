@@ -4,7 +4,7 @@
 #### [[CSS]]
 #### [[SVG]]
 #### [[JavaScript]]
-#### [[Browser (Host) programming interfaces]]
+#### [[Browser programming interfaces]]
 #### [[Browser Extensions]]
 #### [[MathML]]
 #### [[HTTP]]
