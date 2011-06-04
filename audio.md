@@ -1,4 +1,4 @@
-This is an overview of the HTML markup available for working with video. For a programming interface to the `video` tag, see [[video interface]].
+This is an overview of the HTML markup available for working with audio. For a programming interface to the `audio` tag, see [[audio interface]].
 
 ##Usage
     <audio src="http://example.com/audiofile.format">
