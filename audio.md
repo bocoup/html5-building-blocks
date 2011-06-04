@@ -1,9 +1,9 @@
 ##Usage
 
     <audio src="http://example.com/audiofile.format">
-        Text to show if audio is not supported
+        Text to show if audio is not supported.
         Protip: you can put code in here to run if HTML audio is unsupported
-        like a flash fallback for example
+        like a flash fallback for example.
      </audio>
 
 
