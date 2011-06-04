@@ -7,7 +7,7 @@ Programmatically interact with the video tag using JavaScript.
 ###[[Image interface]]
 Programmatically interact with the img tag using JavaScript.
 
-###[[Audio data & web audio interfaces]]
+###[[Audio data and web audio interfaces]]
 Firefox and Chrome have each implemented competing interfaces for pushing and pulling audio samples to and from the audio buffer.
 
 ###[[Media Capture]]
