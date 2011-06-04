@@ -151,6 +151,8 @@ Fires when an attribute has been modified
 Fires when the character data has been modified
 
 ###[[Media Events]]
+These events are fired on `[[audio]]` and `[[video]]` elements.
+
 ####[[abort]]
 Fires when playback is aborted; for example, if the media is playing and is restarted from the beginning, this event is sent.
 
