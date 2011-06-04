@@ -1,4 +1,5 @@
 ##[[Manipulation & Traversal]]
+The browser provides a powerful programming interface for traversing and manipulating the document. This is often called DOM traversal and manipulation. DOM stands for Document Object Model, and this object representation of the document after it is loaded into the window provides numerous methods for interacting with itself: 
 
 ##[[Events]]
 Bind to user events, and clean up after yourself: [[Add Event Listener]], [[Remove Event Listener]], [[Mouse Events]], [[Keyboard Events]], [[Navigation Events]], [[Window Events]], [[Form Events]], [[Touch Events]], [[User Interface Events]], [[Mutation Events]], [[Media Events]]
