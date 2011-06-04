@@ -8,7 +8,7 @@ Bind to user events, and clean up after yourself: [[Add Event Listener]], [[Remo
 Use the [[event interface]] to bind to these different types of events: [[Mouse Events]], [[Keyboard Events]], [[Navigation Events]], [[Window Events]], [[Form Events]], [[Touch Events]], [[User Interface Events]], [[Mutation Events]], [[Media Events]]
 
 ##[[Media]]
-Programmatically interact with audio, video and images: [[Audio interface]], [[Video interface]], [[Image interface]], [[Audio Data Interface]], Web Audio Interface]], [[Media Capture]]
+Programmatically interact with audio, video and images: [[Audio interface]], [[Video interface]], [[Image interface]], [[Audio Data Interface]], [[Web Audio Interface]], [[Media Capture]]
 
 ##[[Graphics]]
 Use these interfaces to create rich graphics: [[canvas interface]], [[WebGL]]
