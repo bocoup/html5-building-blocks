@@ -31,7 +31,7 @@ A number is a literally a number.
 For example
 
 
-####[[Boolean]]
+###[[Boolean]]
 A boolean is either true or false. Booleans can be used to evaluate the truthiness of something.
 For example:
     true
