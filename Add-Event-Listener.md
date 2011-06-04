@@ -1,9 +1,21 @@
+Events added with addEventListener can be removed later using [[removeEventListener]] if the event handler is added using a [[named function]] as opposed to a [[anonymous function]].
+
 ##Usage
+###anonymous function
     EventTarget
       .addEventListener('eventType', function( eventObj ){
         // write code to respond to event in here
         // log eventObj to see the cool stuff on the event object
       }, false);
+
+###named function
+    var listener = function( eventObj ){
+        // write code to respond to event in here
+        // log eventObj to see the cool stuff on the event object
+    }
+    EventTarget
+      .addEventListener('eventType', listener, false);
+
 ### Signature
     EventTarget.addEventListener('eventType', callbackFunction, useCapture)
 
