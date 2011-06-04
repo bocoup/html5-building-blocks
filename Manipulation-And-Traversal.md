@@ -21,7 +21,7 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[document.contentType Non-standard
 * [[Returns the Content-Type from the MIME Header of the current document.
 * [[document.cookie]]: Returns a semicolon-separated list of the cookies for that document or sets a single cookie.
-* [[document.geckoript]]: Returns the <script> element that is currently executing.
+* [[document.geckoript]]: Returns the &lt;script&gt; element that is currently executing.
 * [[document.defaultView]]: Returns a reference to the window object.
 * [[document.designMode]]: Gets/sets WYSYWIG editing capability of Midas. It can only be used for HTML documents.
 * [[document.dir ]]: Gets/sets directionality (rtl/ltr) of the document
@@ -33,7 +33,7 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[document.domain]]: Returns the domain of the current document.
 * [[document.embeds]]: Returns a list of the embedded OBJECTS within the current document.
 * [[document.fgColor* Deprecated]]: Gets/sets the foreground color, or text color, of the current document.
-* [[document.fileSize]]: Returns size of the document or <img> element.
+* [[document.fileSize]]: Returns size of the document or &lt;img&gt; element.
 * [[Node.firstChild]]: Returns the first node in the list of direct children of the document.
 * [[document.forms]]: Returns a list of the FORM elements within the current document.
 * [[document.height Unimplemented]]: Gets/sets the height of the current document.
