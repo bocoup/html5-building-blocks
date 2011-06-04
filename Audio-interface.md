@@ -9,11 +9,12 @@ Use these methods by
       .methodName()
 
 ###load
+This method is used to load a new source into the src attribute of the audio tag. This method must be called after the src of an audio element is changed.
+
     document
       .querySelector('audioselector')
       .load()
 
-This method is used to load a new source into the src attribute of the audio tag. This method must be called after the src of an audio element is changed.
 
 ###play
 
