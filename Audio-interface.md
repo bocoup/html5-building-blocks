@@ -17,10 +17,25 @@ This method is used to load a new source into the src attribute of the audio tag
 
 
 ###play
+This method causes the selection to start playing if it is not playing, and does nothing if it is already playing.
+
+    document
+      .querySelector('audioselector')
+      .play()
 
 ###pause
+This method causes the selection to stop playing if it is playing, and does nothing if it is not playing.
+
+    document
+      .querySelector('audioselector')
+      .pause()
 
 ###mute
+This method causes the selection's volume property to be set to 0.
+
+    document
+      .querySelector('audioselector')
+      .mute()
 
 ##Every Audio Property:
 
