@@ -1,3 +1,5 @@
+Bellow are a list of programming interfaces available in the browser. These interfaces are often collectively called the DOM (Document Object Model)- an object representation of a document loaded into a browser window. The 'document' object is a property of the 'window' object which is available to every developer in JavaScript. The 'window' object holds all of the sexy new HTML5 developer interfaces that you've been hearing about for building 3D offline event-driven ajax applications and web pages
+
 ##[[Manipulation And Traversal]]
 The browser provides a powerful programming interface for traversing and manipulating the document. This is often called DOM traversal and manipulation. DOM stands for Document Object Model. This object representation of the document after it is loaded into the window provides numerous methods for interacting with itself.
 
