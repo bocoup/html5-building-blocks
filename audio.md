@@ -1,8 +1,8 @@
 ##Usage
 
-   <audio src="http://example.com/audiofile.format">
+    <audio src="http://example.com/audiofile.format">
         Text to show if audio is not supported
-    </audio>
+     </audio>
 
 
 ##Every Audio Attibute
