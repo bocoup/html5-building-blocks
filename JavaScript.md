@@ -1,5 +1,8 @@
 JavaScript is a programming language invented by the honerable Brendan Eich in 1995 when he worked at netscape. It is a programming language born of the internet, and developed for the browser. However, JavaScript is not just a browser scripting language. JavaScript is a first class programming language with desktop and server side runtimes just like any other programming language.
 
+##JavaScript Types
+In JavaScript there are 6 types; `object`, `string`, `array`, `number`, `boolean`, `function`.
+
 ###Object
 Objects are the building blocks of JavaScript programs. In JavaScript, everything is an object.
 
@@ -18,19 +21,21 @@ A string is piece of text in quotes. For exaple:
 
     'I am a string of text'
 
-####Array
+###Array
 An array is a list of items. Thes
 
-####Number
+###Number
 
 ####Boolean
+A boolean is a simple type
 
-####Function
+###Function
+A function is 
+
+###Method
 
 ###Variable
-A variable is a placeholder. A variable can hold anything, including a string, number, array, function, 
-
-####Method
+A variable is a placeholder. A variable can hold anything, including a string, number, array, function, boolean.
 
 
 * Native
