@@ -1,0 +1,61 @@
+# HTML5 Building Blocks
+## The Open Web Platform
+
+* [[HTML]]
+* [[CSS]]
+* [[SVG]]
+* [[JavaScript]]
+* [[Browser (Host) programming interfaces]]
+  -Manipulation & Traversal
+  -Events
+    +Add Event Listener
+    +Remove Event Listener
+  
+  -Media (A/V)
+    +Audio interface
+    +Video interface
+    +Audio data & web audio interfaces
+    +Media Capture
+  
+  -Graphics
+    +Canvas interface
+    +WebGL
+  
+  -Offline tools
+    +Web Storage
+      +Session Storage
+      +Local Storage
+    +IndexedDB
+    +Application Cache
+    +Notifications
+  
+  -User Data access
+    +File APIs
+    +Geolocation
+    +File Interface
+    +Device Orientation
+    +Clipboard
+    +Navigation timing
+    +
+  -Client/Server
+    +XMLHttpRequest
+    +XHR2
+    +Web Sockets
+    +Server Sent Events and Event Source
+  
+  -Cross Document communication
+    +Post Message
+    +Web workers
+  
+  -Misc
+    +Push State Interface
+    +Device API
+
+ 																				
+
+* [[Browser Extensions]]
+
+* [[MathML]]
+* [[Internationalization]]
+* [[HTTP]]
+* [[Meta Data]]

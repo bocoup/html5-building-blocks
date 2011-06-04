@@ -1,0 +1,16 @@
+* Native
+    * Math
+    * JSON
+* Host
+    * document.location
+    * history
+    * screenLeft
+    * screenTop
+    * screenX
+    * screenY
+    * scrollX
+    * scrollY
+    * top
+    * self
+    * statusBar
+    * Range
