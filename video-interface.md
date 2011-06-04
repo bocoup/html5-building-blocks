@@ -1,5 +1,4 @@
-
-This is the documentation for the JavaScript interface to the [[html video element|video-tag]]. The video tag JavaScript interface is very similar to the [[video interface]]. Both interfaces are constructed from the HTMLMediaElement.
+This is the documentation for the JavaScript interface to the [[html video element|video]]. The video tag JavaScript interface is very similar to the [[video interface]]. Both interfaces are constructed from the HTMLMediaElement.
 
 
 ##Every video Method:
