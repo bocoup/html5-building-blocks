@@ -1,0 +1,1 @@
+Information on this wiki is contributed by the authors and sourced from <a href="http://developer.mozilla.com">MDC</a>, <a href="http://w3.orf">W3C</a> and <a href="http://htmldog.com">HTML Dog</a>
