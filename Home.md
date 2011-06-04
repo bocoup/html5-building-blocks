@@ -5,7 +5,8 @@ Because they are organized according to how a programmer should implement the te
 
 The goal of this documentation is to cover the technologies according to how a web developer would use them.
 
-------------------------------------
+## Tutorials
+## Technologies
 
 #### [[HTML|Hyper-Text-Markup-Language]]
 HTML (Hyper Text Markup Language), is the base layer of the web. HTML is a markup language that you use to mark up web pages un tags.
