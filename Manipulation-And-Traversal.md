@@ -246,30 +246,3 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[setIdAttributeNS ( namespaceURI, localName, isIdBoolean )]]: Sets the attribute to be treated as an ID type attribute.
 * [[setIdAttributeNode ( idAttr, isIdBoolean )]]: Sets the attribute to be treated as an ID type attribute.
 * [[setUserData ( key, data, handler )]]
-
-
-
-
-
-getElementById
-getElementsByClassName
-getElementsByTagName
-
-createElement
-appendChild
-
-element.innerHTML
-element.style.left
-element.setAttribute
-element.getAttribute
-element.addEventListener
-window.content
-window.onload
-window.dump
-window.scrollTo
-
-firstChild
-lastChild
-previousSibling
-nextSibling
-childNodes
