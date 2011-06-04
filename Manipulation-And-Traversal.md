@@ -63,3 +63,71 @@ The browser provides a powerful programming interface for traversing and manipul
 
 
 ###Methods
+* [[addEventListener( type, listener, useCapture )]]: Register an event handler to a specific event type on the element.
+* [[appendChild( appendedNode )]]: Insert a node as the last child node of this element.
+* [[blur()]]: Removes keyboard focus from the current element.
+* [[click()]]: Simulates a click on the current element.
+* [[cloneNode( deep )]]: Clone a node, and optionally, all of its contents.
+* [[compareDocumentPosition ( otherNode )]]: dispatchEvent( event )]]: Dispatch an event to this node in the DOM.
+* [[focus()]]: Gives keyboard focus to the current element.
+* [[getAttribute( name )]]: Retrieve the value of the named attribute from the current node.
+* [[getAttributeNS( namespace, name )]]: Retrieve the value of the attribute with the specified name and namespace, from the current node.
+* [[getAttributeNode( name )]]: Retrieve the node representation of the named attribute from the current node.
+* [[getAttributeNodeNS( namespace, name )]]: Retrieve the node representation of the attribute with the specified name and namespace, from the current node.
+* [[getBoundingClientRect ( )]]: getClientRects ( )]]: Returns a collection of rectangles that indicate the bounding rectangles for each line of text in a client.
+* [[getElementsByClassName ( )]]: getElementsByTagName( name )]]: Retrieve a set of all descendant elements, of a particular tag name, from the current element.
+* [[getElementsByTagNameNS( namespace, name )]]: Retrieve a set of all descendant elements, of a particular tag name and namespace, from the current element.
+* [[getFeature ( feature, version  )]]: getUserData ( key )]]: hasAttribute( name )]]: Check if the element has the specified attribute, or not.
+* [[hasAttributeNS( namespace, name )]]: Check if the element has the specified attribute, in the specified namespace, or not.
+* [[hasAttributes()]]: Check if the element has any attributes, or not.
+* [[hasChildNodes()]]: Check if the element has any child nodes, or not.
+* [[insertBefore( insertedNode, adjacentNode )]]: Inserts the first node before the second, child, Node in the DOM.
+* [[isDefaultNamespace ( namespaceURI )]]: isEqualNode ( nodeArg )]]: isSameNode ( otherNode ) 
+* [[isSupported ( feature, version )]]: lookupNamespaceURI ( prefix )]]: lookupPrefix ( namespaceURI )]]: mozMatchesSelector( selector )]]: Returns whether or not the element would be selected by the specified selector string.
+* [[normalize()]]: Clean up all the text nodes under this element (merge adjacent, remove empty).
+* [[querySelector( selectors[, nsresolver] ) New in Firefox 3.5
+* [[querySelectorAll( selectors[, nsresolver] ) New in Firefox 3.5
+* [[removeAttribute( name )]]: Remove the named attribute from the current node.
+* [[removeAttributeNS( namespace, name )]]: Remove the attribute with the specified name and namespace, from the current node.
+* [[Name & Description
+* [[removeAttributeNode( attrNode )]]: Remove the node representation of the named attribute from the current node.
+* [[removeChild( removedNode )]]: Removes a child node from the current element.
+* [[removeEventListener( type, handler, useCapture )]]: Removes an event listener from the element.
+* [[replaceChild( insertedNode, replacedNode )]]: Replaces one child node in the current element with another.
+* [[scrollIntoView( alignWithTop )]]: Scrolls the page until the element gets into the view.
+* [[setAttribute( name, value )]]: Set the value of the named attribute from the current node.
+* [[setAttributeNS( namespace, name, value )]]: Set the value of the attribute with the specified name and namespace, from the current node.
+* [[setAttributeNode( name, attrNode )]]: Set the node representation of the named attribute from the current node.
+* [[setAttributeNodeNS( namespace, name, attrNode )]]: Set the node representation of the attribute with the specified name and namespace, from the current node.
+* [[setCapture( retargetToElement )]]: Sets up mouse event capture, redirecting all mouse events to this element.
+* [[setIdAttribute (name, isIdBoolean)]]: Sets the attribute to be treated as an ID type attribute.
+* [[setIdAttributeNS ( namespaceURI, localName, isIdBoolean )]]: Sets the attribute to be treated as an ID type attribute.
+* [[setIdAttributeNode ( idAttr, isIdBoolean )]]: Sets the attribute to be treated as an ID type attribute.
+* [[setUserData ( key, data, handler )]]
+
+
+
+
+
+getElementById
+getElementsByClassName
+getElementsByTagName
+
+createElement
+appendChild
+
+element.innerHTML
+element.style.left
+element.setAttribute
+element.getAttribute
+element.addEventListener
+window.content
+window.onload
+window.dump
+window.scrollTo
+
+firstChild
+lastChild
+previousSibling
+nextSibling
+childNodes
