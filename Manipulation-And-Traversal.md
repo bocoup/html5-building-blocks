@@ -12,7 +12,7 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[Node.attributes]]: Returns a collection of attributes of the given element
 * [[document.background* Deprecated]]: Is supposed to return the URI of the image that tiles the background (though not apparently working in Mozilla); deprecated in favor of document.body.background (though HTML 4.01 deprecated this too)
 * [[Node.baseURI]]: baseURI gets the base URI for the document
-* [[document.baseURIObject Requires Gecko 1.9]]: baseURIObject returns an nsIURI object representing the base URI for the document.
+* [[document.baseURIObject]]: baseURIObject returns an nsIURI object representing the base URI for the document.
 * [[document.bgColor* Deprecated]]: Gets/sets the background color of the current document.
 * [[document.body]]: Returns the BODY node of the current document.
 * [[document.characterSet]]: Returns the character set being used by the document.
@@ -21,7 +21,7 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[document.contentType Non-standard
 * [[Returns the Content-Type from the MIME Header of the current document.
 * [[document.cookie]]: Returns a semicolon-separated list of the cookies for that document or sets a single cookie.
-* [[document.currentScript Requires Gecko 2.0 Non-standard]]: Returns the <script> element that is currently executing.
+* [[document.geckoript]]: Returns the <script> element that is currently executing.
 * [[document.defaultView]]: Returns a reference to the window object.
 * [[document.designMode]]: Gets/sets WYSYWIG editing capability of Midas. It can only be used for HTML documents.
 * [[document.dir ]]: Gets/sets directionality (rtl/ltr) of the document
@@ -29,7 +29,7 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[Name]]: Description
 * [[document.documentElement]]: Returns the Element that is a direct child of document. For HTML documents, this is normally the HTML element.
 * [[document.documentURI]]: Returns the document location.
-* [[document.documentURIObject Requires Gecko 1.9]]: Returns the nsIURI object representing the URI of the document. This property only has special meaning in privileged JavaScript code (with UniversalXPConnect privileges).
+* [[document.documentURIObject]]: Returns the nsIURI object representing the URI of the document. This property only has special meaning in privileged JavaScript code (with UniversalXPConnect privileges).
 * [[document.domain]]: Returns the domain of the current document.
 * [[document.embeds]]: Returns a list of the embedded OBJECTS within the current document.
 * [[document.fgColor* Deprecated]]: Gets/sets the foreground color, or text color, of the current document.
@@ -42,19 +42,19 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[document.inputEncoding]]: Returns the encoding used when the document was parsed.
 * [[Node.lastChild]]: Returns the last child of a node
 * [[document.lastModified]]: Returns the date on which the document was last modified.
-* [[document.lastStyleSheetSet Requires Gecko 1.9]]: Returns the name of the style sheet set that was last enabled. Has the value null until the style sheet is changed by setting the value of selectedStyleSheetSet.
+* [[document.lastStyleSheetSet]]: Returns the name of the style sheet set that was last enabled. Has the value null until the style sheet is changed by setting the value of selectedStyleSheetSet.
 * [[document.linkColor* Deprecated]]: Gets/sets the color of hyperlinks in the document.
 * [[Name]]: Description
 * [[document.links]]: Returns a list of all the hyperlinks in the document.
 * [[Node.localName]]: Returns the local part of the qualified name of this node (null for a document)
 * [[document.location]]: Returns the URI of the current document.
-* [[document.mozCurrentStateObject Non-standard Requires Gecko 2.0]]: Returns the history entry at the top of the history stack without popping it off the stack. This also lets you look at the state without waiting for the popstate event to fire.
+* [[document.mozCurrentStateObject Non-standard]]: Returns the history entry at the top of the history stack without popping it off the stack. This also lets you look at the state without waiting for the popstate event to fire.
 * [[Node.namespaceURI]]: Returns the XML namespace of the current document.
 * [[Node.nextSibling]]: Returns the node immediately following the specified one in its parent's childNodes list, or null if the specified node is the last node in that list (null for documents)
 * [[Node.nodeName]]: Returns the node's name (#document for document)
 * [[Node.nodeType]]: Returns a node type constant (9 for document)
 * [[Node.nodeValue]]: Returns the node's value (null for document)
-* [[Node.nodePrincipal Requires Gecko 1.9]]: Returns the nsIPrincipal object representing current security context of the document.
+* [[Node.nodePrincipal]]: Returns the nsIPrincipal object representing current security context of the document.
 * [[Node.ownerDocument]]: Returns the top-level document object for this node (null if already is the document).
 * [[Node.parentNode]]: Returns the parent of the specified node in the DOM tree (null for document)
 * [[document.plugins]]: Returns a list of the available plugins.
@@ -62,11 +62,11 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[document.preferredStyleSheetSet]]: Returns the preferred style sheet set as specified by the page author.
 * [[Node.prefix]]: Returns the namespace prefix of the specified node, or null if no prefix is specified
 * [[Node.previousSibling]]: Returns the node immediately preceding the specified one in its parent's childNodes list, null if the specified node is the first in that list (null for document)
-* [[document.readyState Requires Gecko 1.9.2]]: Returns loading status of the document
+* [[document.readyState]]: Returns loading status of the document
 * [[document.referrer]]: Returns the URI of the page that linked to this page.
-* [[document.selectedStyleSheetSet Requires Gecko 1.9]]: Returns which style sheet set is currently in use.
+* [[document.selectedStyleSheetSet]]: Returns which style sheet set is currently in use.
 * [[document.styleSheets]]: Returns a list of the stylesheet objects on the current document.
-* [[document.styleSheetSets Requires Gecko 1.9]]: Returns a list of the style sheet sets available on the document.
+* [[document.styleSheetSets]]: Returns a list of the style sheet sets available on the document.
 * [[Node.textContent]]: Returns null (returns other values for other nodes).
 * [[document.title]]: Returns the title of the current document.
 * [[document.tooltipNode]]: Returns the node which is the target of the current tooltip.
@@ -154,27 +154,27 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[baseURIObject New in Firefox 3]]:  The read-only nsIURI object representing the base URI for the element.
 * [[childElementCount New in Firefox 3.5]]:  The number of child nodes that are elements.
 * [[childNodes]]:  All child nodes of an element.
-* [[children Requires Gecko 1.9]]:  A live nsIDOMNodeList of the current child elements.
-* [[classList Requires Gecko 1.9.2]]:  Token list of class attribute
+* [[children]]:  A live nsIDOMNodeList of the current child elements.
+* [[classList]]:  Token list of class attribute
 * [[className]]:  Gets/sets the class of the element.
 * [[clientHeight]]:  The inner height of an element.
 * [[clientLeft]]:  The width of the left border of an element.
 * [[clientTop]]:  The width of the top border of an element.
 * [[clientWidth]]:  The inner width of an element.
-* [[contentEditable Requires Gecko 1.9]]:  Gets/sets whether or not the element is editable.
+* [[contentEditable]]:  Gets/sets whether or not the element is editable.
 * [[dataset]]:  Allows access to read and write custom data attributes on the element.
 * [[dir]]:  Gets/sets the directionality of the element.
 * [[firstChild]]:  The first direct child node of an element, or null if this element has no child nodes.
-* [[firstElementChild Requires Gecko 1.9]]:  The first direct child element of an element, or null if the element has no child elements.
+* [[firstElementChild]]:  The first direct child element of an element, or null if the element has no child elements.
 * [[id]]:  Gets/sets the id of the element.
 * [[innerHTML]]:  Gets/sets the markup and content of the element.
-* [[isContentEditable Requires Gecko 2]]:  Indicates whether or not the content of the element can be edited. Read only.
+* [[isContentEditable]]:  Indicates whether or not the content of the element can be edited. Read only.
 * [[lang]]:  Gets/sets the language of an element's attributes, text, and element contents.
 * [[lastChild]]:  The last direct child node of an element, or null if this element has no child nodes.
-* [[lastElementChild Requires Gecko 1.9]]:  The last direct child element of an element, or null if the element has no child elements.
-* [[localName]]:  The local part of the qualified name of an element. In Firefox 3.5 and earlier, the property upper-cases the local name for HTML elements (but not XHTML elements). In later versions, this does not happen, so the property is in lower case for both HTML and XHTML. Requires Gecko 1.9.2
+* [[lastElementChild]]:  The last direct child element of an element, or null if the element has no child elements.
+* [[localName]]:  The local part of the qualified name of an element. In Firefox 3.5 and earlier, the property upper-cases the local name for HTML elements (but not XHTML elements). In later versions, this does not happen, so the property is in lower case for both HTML and XHTML..2
 * [[name]]:  Gets/sets the name attribute of an element.
-* [[namespaceURI]]:  The namespace URI of this node, or null if it is no namespace. In Firefox 3.5 and earlier, HTML elements are in no namespace. In later versions, HTML elements are in the http://www.w3.org/1999/xhtml namespace in both HTML and XML trees. Requires Gecko 1.9.2
+* [[namespaceURI]]:  The namespace URI of this node, or null if it is no namespace. In Firefox 3.5 and earlier, HTML elements are in no namespace. In later versions, HTML elements are in the http://www.w3.org/1999/xhtml namespace in both HTML and XML trees..2
 * [[nextSibling]]:  The node immediately following the given one in the tree, or null if there is no sibling node.
 * [[nextElementSibling New in Firefox 3.5]]:  The element immediately following the given one in the tree, or null if there's no sibling node.
 * [[nodeName]]:  The name of the node.
