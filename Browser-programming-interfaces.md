@@ -14,7 +14,7 @@ Programmatically interact with audio, video and images: [[Audio interface]], [[V
 Use these interfaces to create rich graphics: [[canvas interface]], [[WebGL]]
 
 ##[[Offline tools]]
-Store data in local databases, cache resources in the web browser and let your users run your web apps and websites without an internet connection: [[Web Storage, [[Session Storage]], [[Local Storage]], [[IndexedDB]], [[Application Cache]], [[Notifications]]                        
+Store data in local databases, cache resources in the web browser and let your users run your web apps and websites without an internet connection: [[Web Storage]], [[Session Storage]], [[Local Storage]], [[IndexedDB]], [[Application Cache]], [[Notifications]]                        
 
 ##[[User Data access]]
 Get access to the user's current location, read and write files on file system, access the users clipboard, record page load times, get access to users' devices, and change the window location url without reloading the page: [[Geolocation Interface]], [[File Interface]], [[Device Orientation Interface]], [[Clipboard Interface]], [[Navigation Timing Interface]], [[Push State Interface]], [[Device Interface]]
