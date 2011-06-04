@@ -16,71 +16,71 @@ A useful demo of all of the events bellow is available on the <a href="http://ww
 
 ###List of media events:
 
-####[[abort]]
+####[[abort|media-abort-event]]
 Fires when playback is aborted; for example, if the media is playing and is restarted from the beginning, this event is sent.
 
-####[[canplay]]
+####[[canplay|media-canplay-event]]
 Fires when enough data is available that the media can be played, at least for a couple of frames.  This corresponds to the CAN_PLAY readyState.
 
-####[[canplaythrough]]
+####[[canplaythrough|media-canplaythrough-event]]
 Fires when the ready state changes to CAN_PLAY_THROUGH, indicating that the entire media can be played without interruption, assuming the download rate remains at least at the current level.
 
-####[[canshowcurrentframe]]
+####[[canshowcurrentframe|media-canshowcurrentframe-event]]
 The current frame has loaded and can be presented.  This corresponds to the CAN_SHOW_CURRENT_FRAME readyState.
 
-####[[dataunavailable]]
+####[[dataunavailable|media-dataunavailable-event]]
 Fires when the ready state changes to DATA_UNAVAILABLE.
 
-####[[durationchange]]
+####[[durationchange|media-durationchange-event]]
 The metadata has loaded or changed, indicating a change in duration of the media.  This is sent, for example, when the media has loaded enough that the duration is known.
 
-####[[emptied]]
+####[[emptied|media-emptied-event]]
 The media has become empty; for example, this event is sent if the media has already been loaded (or partially loaded), and the load() method is called to reload it.
 
-####[[empty]]
+####[[empty|media-empty-event]]
 Fires when an error occurs and the media is empty.
 
-####[[ended]]
+####[[ended|media-ended-event]]
 Fires when playback completes.
 
-####[[error]]
+####[[error|media-error-event]]
 Fires when an error occurs. The media element's error attribute contains more information. See Error handling for details.
 
-####[[loadeddata]]
+####[[loadeddata|media-loadeddata-event]]
 The first frame of the media has finished loading.
 
-####[[loadedmetadata]]
+####[[loadedmetadata|media-loadedmetadata-event]]
 The media's metadata has finished loading; all attributes now contain as much useful information as they're going to.
 
-####[[loadstart]]
+####[[loadstart|media-loadstart-event]]
 Fires when loading of the media begins.
 
-####[[pause]]
+####[[pause|media-pause-event]]
 Fires when playback is paused.
 
-####[[play]]
+####[[play|media-play-event]]
 Fires when playback of the media starts after having been paused; that is, when playback is resumed after a prior pause event.
 
-####[[playing]]
+####[[playing|media-playing-event]]
 Fires when the media begins to play (either for the first time, after having been paused, or after ending and then restarting).
 
-####[[progress]]
+####[[progress|media-progress-event]]
 Sent periodically to inform interested parties of progress downloading the media. Information about the current amount of the media that has been downloaded is available in the media element's buffered attribute.
 
-####[[ratechange]]
+####[[ratechange|media-ratechange-event]]
 Fires when the playback speed changes.
 
-####[[seeked]]
+####[[seeked|media-seeked-event]]
 Fires when a seek operation completes.
 
-####[[seeking]]
+####[[seeking|media-seeking-event]]
 Fires when a seek operation begins.
 
-####[[timeupdate]]
+####[[timeupdate|media-timeupdate-event]]
 The time indicated by the media element's currentTime attribute has changed.
 
-####[[volumechange]]
+####[[volumechange|media-volumechange-event]]
 Fires when the media element's volume changes (both when the volume is set and when the muted attribute is changed).
 
-####[[waiting]]
+####[[waiting|media-waiting-event]]
 Fires when the requested operation (such as playback) is delayed pending the completion of another operation (such as a seek).

@@ -16,7 +16,7 @@ For an overview of each method, see [[Media Element Methods]].
 ##Audio Properties:
 The `audio` element has the same properties as the `video` element.
 
-`[[currentTime|media-currentTime-property]], [[playbackRate|media-playbackRate-property]], [[volume|media-volume-property]], [[duration|media-duration-property]], [[networkState|media-networkState-property]]`
+`[[currentTime|media-currentTime-property]], [[playbackRate|media-playbackRa|media--event]]te-property|media--event]], [[volume|media-volume-property]], [[duration|media-duration-property]], [[networkState|media-networkState-property]]`
 
 ###How to use these properties
 
@@ -31,7 +31,7 @@ The `audio` element event interface is the same as the `[[video interface]]`. Bo
 
 The following events are available to you when adding event listeners (or 'binding') to the audio element
 
-`[[abort]], [[canplay]], [[canplaythrough]], [[canshowcurrentframe]], [[dataunavailable]], [[durationchange]], [[emptied]], [[empty]], [[ended]], [[error]], [[loadeddata]], [[loadedmetadata]], [[loadstart]], [[pause]], [[play]], [[playing]], [[progress]], [[ratechange]], [[seeked]], [[seeking]], [[timeupdate]], [[volumechange]], [[waiting]]`
+`[[abort|media-abort-event]], [[canplay|media-canplay-event]], [[canplaythrough|media-canplaythrough-event]], [[canshowcurrentframe|media-canshowcurrentframe-event]], [[dataunavailable|media-dataunavailable-event]], [[durationchange|media-durationchange-event]], [[emptied|media-emptied-event]], [[empty|media-empty-event]], [[ended|media-ended-event]], [[error|media-error-event]], [[loadeddata|media-loadeddata-event]], [[loadedmetadata|media-loadedmetadata-event]], [[loadstart|media-loadstart-event]], [[pause|media-pause-event]], [[play|media-play-event]], [[playing|media-playing-event]], [[progress|media-progress-event]], [[ratechange|media-ratechange-event]], [[seeked|media-seeked-event]], [[seeking|media-seeking-event]], [[timeupdate|media-timeupdate-event]], [[volumechange|media-volumechange-event]], [[waiting|media-waiting-event]]`
 
 A useful demo of all of the events bellow is available on the <a href="http://www.w3.org/2010/05/video/mediaevents.html">W3C Media Events Demo Page</a> (note that this demo page uses a video to demonstrate the event interfaces).
 
