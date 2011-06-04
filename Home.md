@@ -8,7 +8,7 @@ The goal of this documentation is to cover the technologies according to how a w
 ## Technologies
 
 #### [[HTML|Hyper-Text-Markup-Language]]
-HTML (Hyper Text Markup Language), is the base layer of the web. HTML is a markup language that you use to mark up web pages un tags.
+HTML (Hyper Text Markup Language), is the base layer of the web. HTML is a markup language that you use to mark up web pages with tags.
 
 #### [[CSS|Cascading-Style-Sheets]]
 CSS (Cascading Style Sheets) is the way that we style our markup.
