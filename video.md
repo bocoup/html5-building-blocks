@@ -1,3 +1,4 @@
+This is an overview of the HTML markup available for working with video. For a programming interface to the `video` tag, see [[video interface]].
 ##Usage
 
     <video src="http://example.com/videofile.format">
