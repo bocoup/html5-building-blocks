@@ -35,7 +35,7 @@ HTTP (Hypertext Transfer Protocol) is a RESTful protocol for transferring hypert
 We have several ways to to add meta data to our markup to make it more semantically meaningful, and machine readable.
 
 ### [[I18n]]
-I18n (Internationalization (L - 18characters - N)), is a set of tools and addons to some of technologies above for making our software and webpages work cross browser.
+I18n (Internationalization (I - 18characters - N)), is a set of tools and addons to some of technologies above for making our software and webpages work cross browser.
 
 ## Tutorials
 ####[[Introduction To The Vocabulary]]
