@@ -16,7 +16,7 @@ Here is an example of a JavaScript Object. This object is called an object liter
 
 An object can also be assigned to a variable like so `var myObject = { property: 'value', secondProp: 'anotherValue'}`
 
-###String
+###[[String]]
 A string is piece of text in quotes. For exaple:
 
     'I am a string of text'
@@ -25,7 +25,7 @@ A string is piece of text in quotes. For exaple:
 An array is a list of members. These members can be anything, including a string, number, array, function, boolean. For example:
     ['I am', 'an array of', 'strings and', 18, 'numbers']
 
-###Number
+###[[Number]]
 A number is a literally a number.
 
 For example
