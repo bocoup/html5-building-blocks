@@ -1,59 +1,43 @@
-This is the documentation for the JavaScript interface to the [[html audio element|audio]]. The audio tag JavaScript interface is very similar to the [[video interface]]. Both interfaces are constructed from the HTMLMediaElement.
+This is the documentation for the JavaScript interface to the [[html audio element|audio]]. The audio element JavaScript interface is very similar to the [[video interface]].
 
 
-##Every Audio Method:
-Use these methods by
+##Audio Methods:
+[[load|media-load-method]], [[play|media-play-method]], [[pause|media-pause-method]], [[mute|media-lomutead-method]]
 
-    document
-      .querySelector('audioselector')
-      .methodName()
-
-###load
-This method is used to load a new source into the src attribute of the audio tag. This method must be called after the src of an audio element is changed.
+###How to use these methods
+The `audio` element has the same methods as the `video` element.
 
     document
       .querySelector('audioselector')
-      .load()
+      .methodName() // calls the method on the selection
 
+For an overview of each method, see [[Media Element Methods]].
 
-###play
-This method causes the selection to start playing if it is not playing, and does nothing if it is already playing.
+##Audio Properties:
+The `audio` element has the same properties as the `video` element.
 
-    document
-      .querySelector('audioselector')
-      .play()
+`[[currentTime|media-currentTime-property]], [[playbackRate|media-playbackRate-property]], [[volume|media-volume-property]], [[duration|media-duration-property]], [[networkState|media-networkState-property]]`
 
-###pause
-This method causes the selection to stop playing if it is playing, and does nothing if it is not playing.
+###How to use these properties
 
     document
       .querySelector('audioselector')
-      .pause()
+      .propertyName // returns the value of the property
 
-###mute
-This method causes the selection's volume property to be set to 0.
+For an overview of each property, see [[Media Element Properties]].
 
-    document
-      .querySelector('audioselector')
-      .mute()
+##Audio Events:
+The `audio` element event interface is the same as the `[[video interface]]`. Both interfaces are based on the [[media events]] interface.
 
-##Every Audio Property:
+The following events are available to you when adding event listeners (or 'binding') to the audio element
 
-###currentTime
+`[[abort]], [[canplay]], [[canplaythrough]], [[canshowcurrentframe]], [[dataunavailable]], [[durationchange]], [[emptied]], [[empty]], [[ended]], [[error]], [[loadeddata]], [[loadedmetadata]], [[loadstart]], [[pause]], [[play]], [[playing]], [[progress]], [[ratechange]], [[seeked]], [[seeking]], [[timeupdate]], [[volumechange]], [[waiting]]`
 
-###playbackRate
+A useful demo of all of the events bellow is available on the <a href="http://www.w3.org/2010/05/video/mediaevents.html">W3C Media Events Demo Page</a> (note that this demo page uses a video to demonstrate the event interfaces).
 
-###volume
+###How to use these events
 
-###duration
-
-###networkState
-
-##Every Audio Event:
-The `audio` element event interface has a lot in common with the `[[video interface]]`. Both interfaces are based of the [[media events]] interface.
-
-You can Bind to these events with
-
+    // bind to an event
     document
       .querySelector('audioselector')
       .addEventListener('eventname', function( eventObj ){
@@ -61,8 +45,3 @@ You can Bind to these events with
         // log eventObj, it has interesting stuff
       })
       
-A useful demo of all of the events bellow is available on the <a href="http://www.w3.org/2010/05/video/mediaevents.html">W3C Media Events Demo Page</a> (note that this demo page uses a video to demonstrate the event interfaces).
-
-The following events are available to you when adding event listeners (or 'binding') to the audio element:
-
-`[[abort]], [[canplay]], [[canplaythrough]], [[canshowcurrentframe]], [[dataunavailable]], [[durationchange]], [[emptied]], [[empty]], [[ended]], [[error]], [[loadeddata]], [[loadedmetadata]], [[loadstart]], [[pause]], [[play]], [[playing]], [[progress]], [[ratechange]], [[seeked]], [[seeking]], [[timeupdate]], [[volumechange]], [[waiting]]`

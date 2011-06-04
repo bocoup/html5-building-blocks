@@ -1,4 +1,20 @@
-These events are fired on `[[audio]]` and `[[video]]` elements.
+##Media Events
+The following events are available to you when adding event listeners (or 'binding') to the `[[audio]]` or `[[video]]` elements.
+
+###How to use these events
+
+    // bind to an event
+    document
+      .querySelector('audioselector')
+      .addEventListener('eventname', function( eventObj ){
+        // do stuff in response to the event
+        // log eventObj, it has interesting stuff
+      })
+      
+
+A useful demo of all of the events bellow is available on the <a href="http://www.w3.org/2010/05/video/mediaevents.html">W3C Media Events Demo Page</a> (note that this demo page uses a video to demonstrate the events).
+
+###List of media events:
 
 ####[[abort]]
 Fires when playback is aborted; for example, if the media is playing and is restarted from the beginning, this event is sent.
