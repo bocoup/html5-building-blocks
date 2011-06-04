@@ -1,10 +1,10 @@
 ##[[Manipulation & Traversal]]
+
 ##[[Events]]
-    * Add Event Listener
-    * Remove Event Listener
+Bind to user events, and clean up after yourself: [[Add Event Listener]], [[Remove Event Listener]], [[drag/drop]], [[hashchange]], [[popstate]], [[mouse events]], [[message events]], [[keyboard events]], [[Touch events]]
+
 ##[[Media]]
-`[[Audio interface]], [[Video interface]], [[Image interface]], [[Audio data and web audio interfaces]], [[Media Capture]]`
-Embed audio, video and images.
+Programmatically interact with audio, video and images: [[Audio interface]], [[Video interface]], [[Image interface]], [[Audio data and web audio interfaces]], [[Media Capture]]
 
 ##[[Graphics]]
     * Canvas interface
@@ -35,3 +35,8 @@ Get access to the user's current location, read and write files on file system, 
 ##[[Misc]]
     * Push State Interface
     * Device API
+##[[New Stuff Comming]]
+    * [[Real time communication]]
+    * [[Frame refresh rate]]
+    * [[Tab visibility]]
+    * [[Fullscreen]]
