@@ -9,21 +9,3 @@ This property contains the playback rate of the selected media element. You can 
       document
         .querySelector('audioOrVideoSelector')
         .playbackRate = 15 // make the media play 15 times faster than normal
-
-###[[volume|media-volume-property]]
-This property contains the volume (0 - 9) of the selected media element. This property is only available after the video is loaded with the load method.
-
-    document
-      .querySelector('audioOrVideoSelector')
-      .volume // returns the current playback rate
-
-      document
-        .querySelector('audioOrVideoSelector')
-        .volume = 8 // make it almost as loud as it can go
-
-###[[duration|media-duration-property]]
-This property contains the total duration in milliseconds of the selected media element. This property is only available after the video is loaded with the load method.
-
-    document
-      .querySelector('audioOrVideoSelector')
-      .duration // returns the current playback rate
