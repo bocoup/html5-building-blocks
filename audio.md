@@ -1,9 +1,7 @@
 ##Usage
 
 ##Every Audio Attibute
-In addition to supporting the default HTML element attributes which are
-`id, class, style, tabindex, title, accesskey, contenteditable, dir, draggable, hidden, data-*, lang`, 
-the `audio` tag also supports the following attributes:
+In addition to supporting the default HTML element attributes which are `id, class, style, tabindex, title, accesskey, contenteditable, dir, draggable, hidden, data-*, lang`, the `audio` tag also supports the following attributes:
 
 ###autoplay
 A Boolean attribute; if specified (even if the value is "false"!), the audio will automatically begin to play back as soon as it can do so without stopping to finish loading the data.
