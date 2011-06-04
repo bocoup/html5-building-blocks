@@ -29,7 +29,7 @@ An array is a list of members. These members can be anything, including a string
 A number is a literally a number.
 
 For example
-
+    18
 
 ###[[Boolean]]
 A boolean is either true or false. Booleans can be used to evaluate the truthiness of something.
