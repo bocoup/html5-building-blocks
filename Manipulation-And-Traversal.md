@@ -6,7 +6,7 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[document.activeElement]]: Returns the currently focused element
 * [[document.alinkColor* Deprecated]]: Returns or sets the color of active links in the document body.
 * [[document.all Deprecated]]:  
-* [[document.anchors*]]: Returns a list of all of the anchors in the document.
+* [[document.anchors]]: Returns a list of all of the anchors in the document.
 * [[document.applets* Deprecated]]: Returns an ordered list of the applets within a document.
 * [[document.async]]: async is used with document.load to indicate an asynchronous request.
 * [[Node.attributes]]: Returns a collection of attributes of the given element
@@ -14,13 +14,13 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[Node.baseURI]]: baseURI gets the base URI for the document
 * [[document.baseURIObject Requires Gecko 1.9]]: baseURIObject returns an nsIURI object representing the base URI for the document.
 * [[document.bgColor* Deprecated]]: Gets/sets the background color of the current document.
-* [[document.body*]]: Returns the BODY node of the current document.
+* [[document.body]]: Returns the BODY node of the current document.
 * [[document.characterSet]]: Returns the character set being used by the document.
 * [[Node.childNodes]]: returns a collection of child nodes of the given node
 * [[document.compatMode]]: Indicates whether the document is rendered in Quirks or Strict mode.
 * [[document.contentType Non-standard
 * [[Returns the Content-Type from the MIME Header of the current document.
-* [[document.cookie*]]: Returns a semicolon-separated list of the cookies for that document or sets a single cookie.
+* [[document.cookie]]: Returns a semicolon-separated list of the cookies for that document or sets a single cookie.
 * [[document.currentScript Requires Gecko 2.0 Non-standard]]: Returns the <script> element that is currently executing.
 * [[document.defaultView]]: Returns a reference to the window object.
 * [[document.designMode]]: Gets/sets WYSYWIG editing capability of Midas. It can only be used for HTML documents.
@@ -30,14 +30,14 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[document.documentElement]]: Returns the Element that is a direct child of document. For HTML documents, this is normally the HTML element.
 * [[document.documentURI]]: Returns the document location.
 * [[document.documentURIObject Requires Gecko 1.9]]: Returns the nsIURI object representing the URI of the document. This property only has special meaning in privileged JavaScript code (with UniversalXPConnect privileges).
-* [[document.domain*]]: Returns the domain of the current document.
+* [[document.domain]]: Returns the domain of the current document.
 * [[document.embeds]]: Returns a list of the embedded OBJECTS within the current document.
 * [[document.fgColor* Deprecated]]: Gets/sets the foreground color, or text color, of the current document.
 * [[document.fileSize]]: Returns size of the document or <img> element.
 * [[Node.firstChild]]: Returns the first node in the list of direct children of the document.
-* [[document.forms*]]: Returns a list of the FORM elements within the current document.
+* [[document.forms]]: Returns a list of the FORM elements within the current document.
 * [[document.height Unimplemented]]: Gets/sets the height of the current document.
-* [[document.images*]]: Returns a list of the images in the current document.
+* [[document.images]]: Returns a list of the images in the current document.
 * [[document.implementation]]: Returns the DOM implementation associated with the current document.
 * [[document.inputEncoding]]: Returns the encoding used when the document was parsed.
 * [[Node.lastChild]]: Returns the last child of a node
@@ -45,7 +45,7 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[document.lastStyleSheetSet Requires Gecko 1.9]]: Returns the name of the style sheet set that was last enabled. Has the value null until the style sheet is changed by setting the value of selectedStyleSheetSet.
 * [[document.linkColor* Deprecated]]: Gets/sets the color of hyperlinks in the document.
 * [[Name]]: Description
-* [[document.links*]]: Returns a list of all the hyperlinks in the document.
+* [[document.links]]: Returns a list of all the hyperlinks in the document.
 * [[Node.localName]]: Returns the local part of the qualified name of this node (null for a document)
 * [[document.location]]: Returns the URI of the current document.
 * [[document.mozCurrentStateObject Non-standard Requires Gecko 2.0]]: Returns the history entry at the top of the history stack without popping it off the stack. This also lets you look at the state without waiting for the popstate event to fire.
@@ -63,14 +63,14 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[Node.prefix]]: Returns the namespace prefix of the specified node, or null if no prefix is specified
 * [[Node.previousSibling]]: Returns the node immediately preceding the specified one in its parent's childNodes list, null if the specified node is the first in that list (null for document)
 * [[document.readyState Requires Gecko 1.9.2]]: Returns loading status of the document
-* [[document.referrer*]]: Returns the URI of the page that linked to this page.
+* [[document.referrer]]: Returns the URI of the page that linked to this page.
 * [[document.selectedStyleSheetSet Requires Gecko 1.9]]: Returns which style sheet set is currently in use.
 * [[document.styleSheets]]: Returns a list of the stylesheet objects on the current document.
 * [[document.styleSheetSets Requires Gecko 1.9]]: Returns a list of the style sheet sets available on the document.
 * [[Node.textContent]]: Returns null (returns other values for other nodes).
-* [[document.title*]]: Returns the title of the current document.
+* [[document.title]]: Returns the title of the current document.
 * [[document.tooltipNode]]: Returns the node which is the target of the current tooltip.
-* [[document.URL*]]: Returns a string containing the URL of the current document.
+* [[document.URL]]: Returns a string containing the URL of the current document.
 * [[document.vlinkColor* Deprecated]]: Gets/sets the color of visited hyperlinks.
 * [[document.width Unimplemented]]: Returns the width of the current document.
 * [[document.xmlEncoding]]: Returns the encoding as determined by the XML declaration.
@@ -84,7 +84,7 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[document.captureEvents]]
 * [[document.clear* Deprecated]]: In majority of modern browsers, including recent versions of Firefox and Internet Explorer, this method does nothing.
 * [[Node.cloneNode]]: Makes a copy of a node or document
-* [[document.close*]]: Closes a document stream for writing.
+* [[document.close]]: Closes a document stream for writing.
 * [[Node.compareDocumentPosition]]: Compares the position of the current node against another node in any other document.
 * [[document.createAttribute]]: Creates a new attribute node and returns it.
 * [[document.createAttributeNS]]: Creates a new attribute node in a given namespace and returns it.
@@ -104,12 +104,12 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[document.elementFromPoint]]: Returns the element visible at the specified coordinates.
 * [[document.enableStyleSheetsForSet]]: Enables the style sheets for the specified style sheet set.
 * [[document.evaluate]]: Evaluates an XPath expression.
-* [[document.execCommand*]]: Executes a Midas command.
+* [[document.execCommand]]: Executes a Midas command.
 * [[document.execCommandShowHelp]]
 * [[document.getBoxObjectFor]]
 * [[document.getElementById]]: Returns an object reference to the identified element.
 * [[document.getElementsByClassName]]: Returns a list of elements with the given class name.
-* [[document.getElementsByName*]]: Returns a list of elements with the given name.
+* [[document.getElementsByName]]: Returns a list of elements with the given name.
 * [[document.getElementsByTagName]]: Returns a list of elements with the given tag name.
 * [[document.getElementsByTagNameNS]]: Returns a list of elements with the given tag name and namespace.  
 * [[Node.getFeature]]: document.getSelection
@@ -128,12 +128,12 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[Node.lookupPrefix]]: Returns the prefix for a given namespaceURI on the given node if present
 * [[Node.normalize]]: Normalizes the node or document
 * [[document.normalizeDocument]]: Replaces entities, normalizes text nodes, etc.
-* [[document.open*]]: Opens a document stream for writing.
-* [[document.queryCommandEnabled*]]: Returns true if the Midas command can be executed on the current range.
-* [[document.queryCommandIndeterm*]]: Returns true if the Midas command is in a indeterminate state on the current range.
-* [[document.queryCommandState*]]: Returns true if the Midas command has been executed on the current range.
+* [[document.open]]: Opens a document stream for writing.
+* [[document.queryCommandEnabled]]: Returns true if the Midas command can be executed on the current range.
+* [[document.queryCommandIndeterm]]: Returns true if the Midas command is in a indeterminate state on the current range.
+* [[document.queryCommandState]]: Returns true if the Midas command has been executed on the current range.
 * [[document.queryCommandSupported]]
-* [[document.queryCommandText]]: document.queryCommandValue*]]: Returns the current value of the current range for Midas command. As of Firefox 2.0.0.2, queryCommandValue will return an empty string when a command value has not been explicitly set.
+* [[document.queryCommandText]]: document.queryCommandValue]]: Returns the current value of the current range for Midas command. As of Firefox 2.0.0.2, queryCommandValue will return an empty string when a command value has not been explicitly set.
 * [[document.querySelector]]: Returns the first Element node within the document, in document order, that matches the specified selectors.
 * [[document.querySelectorAll]]: Returns a list of all the Element nodes within the document that match the specified selectors.
 * [[document.releaseCapture]]: Releases the current mouse capture if it's on an element in this document.
@@ -144,7 +144,7 @@ The browser provides a powerful programming interface for traversing and manipul
 * [[document.routeEvent]]:
 * [[document.mozSetImageElement]]: Allows you to change the element being used as the background image for a specified element ID.
 * [[Node.setUserData]]: Attaches arbitrary data to a node, along with a user-defined key and an optional handler to be triggered upon events such as cloning of the node upon which the data was attached
-* [[document.write*]]: Writes text to a document.
+* [[document.write]]: Writes text to a document.
 * [[document.writeln* ]]: Write a line of text to a document.
 
 ##Element
