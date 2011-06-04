@@ -1,9 +1,39 @@
-This is the documentation for the JavaScript interface to the [[html audio element|audio-tag]]
-
-<a href="http://www.w3.org/2010/05/video/mediaevents.html">W3C Media Events Demo Page</a>
+This is the documentation for the JavaScript interface to the [[html audio element|audio-tag]]. The audio tag JavaScript interface is very similar to the [[video interface]]. Both interfaces are constructed from the HTMLMediaElement.
 
 
-##Every Media Event:
+##Every Audio Method:
+Use these methods by
+
+    document
+      .querySelector('audioselector')
+      .methodName()
+
+###load
+    document
+      .querySelector('audioselector')
+      .load()
+
+This method is used to load a new source into the src attribute of the audio tag. This method must be called after the src of an audio element is changed.
+
+###play
+
+###pause
+
+###mute
+
+##Every Audio Property:
+
+###currentTime
+
+###playbackRate
+
+###volume
+
+###duration
+
+###networkState
+
+##Every Audio Event:
 Bind to these events with
 
     document
@@ -13,6 +43,7 @@ Bind to these events with
         // log eventObj, it has interesting stuff
       })
       
+A useful demo of all of the events bellow is available on the <a href="http://www.w3.org/2010/05/video/mediaevents.html">W3C Media Events Demo Page</a> (note that this demo page uses a video to demonstrate the event interfaces).
 
 ###abort
 Sent when playback is aborted; for example, if the media is playing and is restarted from the beginning, this event is sent.
