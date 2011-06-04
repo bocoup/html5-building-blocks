@@ -9,7 +9,7 @@
 [[hashchange]], [[popstate]]
 
 ###[[Window Events]]
-[[message]], [[load]], [[unload]], [[abort]], [[error]], [[resize]], [[scroll]]
+[[message]], [[load]], [[unload]], [[abort]], [[error]], [[resize]], [[scroll]], [[online]], [[offline]], [[afterprint]], [[beforeprint]], 
 
 ###[[Form Events]]
 [[select]], [[change]], [[submit]], [[reset]], [[focus]], [[blur]]
