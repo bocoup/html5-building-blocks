@@ -2,7 +2,7 @@
 ----------------
 #### [[HTML]]
 #### [[CSS]]
-#### [[SVG]]
+#### [[Scalable-Vector-Graphics|SVG]]
 #### [[JavaScript]]
 #### [[Browser programming interfaces]]
 #### [[Browser Extensions]]
