@@ -1,4 +1,4 @@
-This is the documentation for the JavaScript interface to the [[html audio element|audio-tag]]. The audio tag JavaScript interface is very similar to the [[video interface]]. Both interfaces are constructed from the HTMLMediaElement.
+This is the documentation for the JavaScript interface to the [[html audio element|audio]]. The audio tag JavaScript interface is very similar to the [[video interface]]. Both interfaces are constructed from the HTMLMediaElement.
 
 
 ##Every Audio Method:
