@@ -1,5 +1,10 @@
 ##Usage
 
+    <audio src="http://example.com/audiofile.format">
+        Text to show if audio is not supported
+    </audio>
+
+
 ##Every Audio Attibute
 In addition to supporting the default HTML element attributes which are `id, class, style, tabindex, title, accesskey, contenteditable, dir, draggable, hidden, data-*, lang`, the `audio` tag also supports the following attributes:
 
