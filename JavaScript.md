@@ -39,7 +39,6 @@ For example:
 ###[[Function]]
 Functions are the things that actually do something in a JavaScript program. Functions in JavaScript are very similar to the functions you learned about in algebra ( remember f(4) = 8, solve for f ?). Functions take arguments, and do things with them. Functions can be called by other functions, passed around in variables, and much more.
 
---------------------
 ##More vocabulary
 ###[[Method]]
 A method is a function property of an object.
