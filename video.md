@@ -10,8 +10,11 @@ In it's simplest form, the `video` tag takes an src attribute, and gives you the
 ##Every video Attribute
 In addition to supporting the default HTML element attributes which are `id, class, style, tabindex, title, accesskey, contenteditable, dir, draggable, hidden, data-*, lang`, the `video` tag also supports the following attributes:
 
+###poster
+A URL indicating a poster frame to show until the user plays or seeks. If this attribute isn't specified, nothing is displayed until the first frame is available; then the first frame is displayed as the poster frame.
+
 ###controls
-If this attribute is present, the browser will offer controls to allow the user to control audio playback, including volume, seeking, and pause/resume playback.
+If this attribute is present, Gecko will offer controls to allow the user to control video playback, including volume, seeking, and pause/resume playback.
 
 ###autoplay
 A Boolean attribute; if specified, the video will automatically begin to play back as soon as it can do so without stopping to finish loading the data.
