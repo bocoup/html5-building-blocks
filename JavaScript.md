@@ -11,9 +11,7 @@ Here is an example of a JavaScript Object. This object is called an object liter
       }
     }
 
-An object can also be assigned to a variable like so `var myObject = { property: 'value', secondProp: 'anotherValue'}
-
-###Variable
+An object can also be assigned to a variable like so `var myObject = { property: 'value', secondProp: 'anotherValue'}`
 
 ###String
 A string is piece of text in quotes. For exaple:
@@ -23,7 +21,14 @@ A string is piece of text in quotes. For exaple:
 ####Array
 An array is a list of items. Thes
 
+####Number
+
+####Boolean
+
 ####Function
+
+###Variable
+A variable is a placeholder. A variable can hold anything, including a string, number, array, function, 
 
 ####Method
 
