@@ -4,11 +4,6 @@
     * Remove Event Listener
 *  ##[[Media (A/V)]]
 Embed audio, video and images.
-    * Audio interface
-    * Video interface
-    * Image interface
-    * Audio data & web audio interfaces
-    * Media Capture
 * ##[[Graphics]]
     * Canvas interface
     * WebGL
