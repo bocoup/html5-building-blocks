@@ -8,4 +8,4 @@ The goal of this documentation is to cover the technologies according to how a w
 ## [[Technologies]]
 [[HTML|Hyper-Text-Markup-Language]], [[CSS|Cascading-Style-Sheets]], [[SVG|Scalable-Vector-Graphics]], [[JavaScript]], [[Browser programming interfaces]], [[Browser Extensions]], [[MathML|Math-Markup-Language]], [[HTTP|Hyper-Text-Transfer-Protocol]], [[Meta Data]], [[I18n]]
 
-## Tutorials
+## [[Tutorials]]
