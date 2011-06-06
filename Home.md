@@ -1,4 +1,4 @@
-#HTML5: The Open Web Platform
+##HTML5: The Open Web Platform
 HTML5 building blocks pulls useful documentation together from around the web and organizes it according to how web developers build web sites and web applications. [[More about HTML5 Building Blocks|About]].
 
 ## [[Technologies]]
