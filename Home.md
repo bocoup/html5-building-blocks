@@ -9,12 +9,3 @@ The goal of this documentation is to cover the technologies according to how a w
 [[HTML|Hyper-Text-Markup-Language]], [[CSS|Cascading-Style-Sheets]], [[SVG|Scalable-Vector-Graphics]], [[JavaScript]], [[Browser programming interfaces]], [[Browser Extensions]], [[MathML|Math-Markup-Language]], [[HTTP|Hyper-Text-Transfer-Protocol]], [[Meta Data]], [[I18n]]
 
 ## Tutorials
-####[[Introduction To The Vocabulary]]
-####[[Creating A Web Page]]
-####[[Styling a Web Page]]
-####[[Using the HTML5 Boilerplate]]
-####[[Using CSS Frameworks]]
-####[[Progressive enhancement and Feature Detection]]
-####[[Intro to JavaScript]]
-####[[Intro to Browser Programming Interfaces]]
-####[[Using JavaScript Libraries and Frameworks]]
