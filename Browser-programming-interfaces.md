@@ -7,7 +7,7 @@ The browser provides a powerful programming interface for traversing and manipul
 Bind to user events, and clean up after yourself: [[Add Event Listener]], [[Remove Event Listener]]
 
 ##[[Events]]
-Use the [[event interface]] to bind to these different types of events: [[Mouse Events]], [[Keyboard Events]], [[Window Events]], [[Form Events]], [Navigation Events]], [[Touch Events]], [[User Interface Events]], [[Mutation Events]], [[Media Events]]
+Use the [[event interface]] to bind to these different types of events: [[Mouse Events]], [[Keyboard Events]], [[Window Events]], [[Form Events]], [[Navigation Events]], [[Touch Events]], [[User Interface Events]], [[Mutation Events]], [[Media Events]]
 
 ##[[Media]]
 Programmatically interact with audio, video and images: [[Audio interface]], [[Video interface]], [[Image interface]], [[Audio Data API]], [[Web Audio Interface]], [[Media Capture]]
