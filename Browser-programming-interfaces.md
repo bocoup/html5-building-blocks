@@ -7,19 +7,19 @@ The browser provides a powerful programming interface for traversing and manipul
 Bind to user events, and clean up after yourself: [[Add Event Listener]], [[Remove Event Listener]]
 
 ##[[Events]]
-Use the [[event interface]] to bind to these different types of events: [[Mouse Events]], [[Keyboard Events]], [[Window Events]], [[Form Events]], [[Touch Events]], [[User Interface Events]], [[Mutation Events]], [[Media Events]]
+Use the [[event interface]] to bind to these different types of events: [[Mouse Events]], [[Keyboard Events]], [[Window Events]], [[Form Events]], [Navigation Events]], [[Touch Events]], [[User Interface Events]], [[Mutation Events]], [[Media Events]]
 
 ##[[Media]]
 Programmatically interact with audio, video and images: [[Audio interface]], [[Video interface]], [[Image interface]], [[Audio Data API]], [[Web Audio Interface]], [[Media Capture]]
 
 ##[[Graphics]]
-Use these interfaces to create rich graphics: [[canvas interface]], [[WebGL]], [[Navigation Events]]
+Use these interfaces to create rich graphics: [[canvas interface]], [[WebGL]], [[Navigation Timing Interface]]
 
 ##[[Offline tools]]
 Store data in local databases, cache resources in the web browser and let your users run your web apps and websites without an internet connection: [[Session Storage]], [[Local Storage]], [[IndexedDB]], [[Application Cache]], [[Notifications]]                        
 
 ##[[User Data access]]
-Get access to the user's current location, read and write files on file system, access the users clipboard, record page load times, get access to users' devices, and change the window location url without reloading the page: [[Geolocation Interface]], [[File Interface]], [[Device Orientation Interface]], [[Clipboard Interface]], [[Navigation Timing Interface]], [[Push State Interface]], [[Device Interface]]
+Get access to the user's current location, read and write files on file system, access the users clipboard, record page load times, get access to users' devices, and change the window location url without reloading the page: [[Geolocation Interface]], [[File Interface]], [[Device Orientation Interface]], [[Clipboard Interface]], [[Push State Interface]], [[Device Interface]]
 
 ##[[Client/Server]]
 Load data into the page without reloading the page: [[XMLHttpRequest Interface]], [[XHR2 Interface]], [[Web Sockets Interface]], [[Event Source Interface]]
