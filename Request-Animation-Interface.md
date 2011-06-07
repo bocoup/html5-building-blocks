@@ -1,4 +1,6 @@
-ReGreat example from Mr. Doob: [[http://mrdoob.com/lab/javascript/requestanimationframe]]
+The requestAnimationFrame method of the window is a new interface that allows you to pass a callback to be run every time the browser is able to repaint the window. This is much more efficient then setting up your own timer with [[setInterval]] or [[setTimeout]]. This API is still in flux, with experimental implementations in Firefox, and Chrome. For safe usage today see the cross browser shim bellow with a fallback to [[setTimeout]].
+
+Here is a great example from Mr. Doob: [[http://mrdoob.com/lab/javascript/requestanimationframe]]
 
 ##Usage
 ###anonymous function
