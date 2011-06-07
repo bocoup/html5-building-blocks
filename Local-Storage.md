@@ -7,6 +7,7 @@ There is a great chapter on Local storage on [[diveintohtml5.org/storage.html|ht
       propery: 'myfavevalue',
       anotherProp: ['my', 'fave', 'array', 'of', 'strings']
     });
+
     window.localStorage.setItem( 'myData', myJSONString );
 
     window.localStorage.getItem( 'myData' ) //returns myJSONString
