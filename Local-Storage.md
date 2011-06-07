@@ -3,10 +3,10 @@ Local storage is a key value store that allows you to persist serialized objects
 There is a great chapter on Local storage on [[diveintohtml5.org/storage.html|http://diveintohtml5.org/storage.html]]
 
 ##Usage:
-    Var myJSONString = JSON.stringify({
+    var myJSONString = JSON.stringify({
       propery: 'myfavevalue',
       anotherProp: ['my', 'fave', 'array', 'of', 'strings']
     });
-    window.localStorage.setItem( myData, myJSONString );
+    window.localStorage.setItem( 'myData', myJSONString );
 
-    window.localStorage.getItem( myData ) //returns myJSONString
+    window.localStorage.getItem( 'myData' ) //returns myJSONString
