@@ -31,8 +31,7 @@ Great example from Mr. Doob: [[http://mrdoob.com/lab/javascript/requestanimation
 * **boundingElement**: Required reference to the canvas element if you are animating in a canvas context, optional if you are doing animations on with DOM elements.
 
 ## Shim:
-    // requestAnim shim layer by Paul Irish
-    // [[http://paulirish.com/2011/requestanimationframe-for-smart-animating]]
+    // requestAnim shim layer by Paul Irish ( [[http://paulirish.com/2011/requestanimationframe-for-smart-animating]] )
         window.requestAnimFrame = (function(){
           return  window.requestAnimationFrame       || 
                   window.webkitRequestAnimationFrame || 
