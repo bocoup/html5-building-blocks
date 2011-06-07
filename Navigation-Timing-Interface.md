@@ -21,7 +21,7 @@ Great example from Mr. Doob: [[http://mrdoob.com/lab/javascript/requestanimation
     	// requestAnimationFrame callback.
     	
     	// Write your event loop code here.
-    }
+    };
     window.requestAnimationFrame( eventLoop );
 
 ### Signature
