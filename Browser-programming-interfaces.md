@@ -13,7 +13,7 @@ Use the [[event interface]] to bind to these different types of events: [[Mouse 
 Programmatically interact with audio, video and images: [[Audio interface]], [[Video interface]], [[Image interface]], [[Audio Data API]], [[Web Audio Interface]], [[Media Capture]]
 
 ##[[Graphics]]
-Use these interfaces to create rich graphics: [[canvas interface]], [[WebGL]], [[Navigation Timing Interface]]
+Use these interfaces to create rich graphics: [[canvas interface]], [[WebGL]], [[Request Animation Interface]]
 
 ##[[Offline tools]]
 Store data in local databases, cache resources in the web browser and let your users run your web apps and websites without an internet connection: [[Session Storage]], [[Local Storage]], [[IndexedDB]], [[Application Cache]], [[Notifications]]                        
