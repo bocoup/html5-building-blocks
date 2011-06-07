@@ -12,3 +12,9 @@ To quickly see all of the properties and methods on the `document`, open up your
 
 
 ##Element
+Another programming interface available to us is the 'Element' API. Each `element` in a 'document' is constructed from one of the `Element` constructors, and provides useful methods for traversing around the 'document' from that 'element', and useful properties about that 'element'. See the [[methods reference | https://developer.mozilla.org/en/DOM/element#Methods]] and [[properties reference | https://developer.mozilla.org/en/DOM/element#Properties]] on MDC for a full list of all the properties and methods on each `element`.
+
+To quickly see all of the properties and methods on each `element`, open up your [[JavaScript Console]], and type:
+
+    console.dir( document.querySelector('a') )
+
