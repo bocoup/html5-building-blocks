@@ -1,4 +1,4 @@
-removeEventListener can be called on an `eventTarget` if the event handler was added with [[addEventListener]] using a [[named function]] as opposed to a [[anonymous function]].
+removeEventListener can be called on an `eventTarget` if the event handler was added with [[addEventListener|Add Event Listener]] using a [[named function]] as opposed to a [[anonymous function]].
 
 ##Usage
     var namedCallbackFunction = function( eventObj ){
