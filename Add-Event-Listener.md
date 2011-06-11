@@ -1,4 +1,4 @@
-Events added with addEventListener can be removed later using [[removeEventListener]] if the event handler is added using a [[named function]] as opposed to a [[anonymous function]].
+Events added with addEventListener can be removed later using [[removeEventListener|Remove Event Listener]] if the event handler is added using a [[named function]] as opposed to a [[anonymous function]].
 
 ##Usage
 ###anonymous function
