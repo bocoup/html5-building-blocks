@@ -1,4 +1,6 @@
 ##Every Event Type:
+The events bellow can be bound to using the [[Event Interface]],
+
 ###[[Mouse Events]]
 [[click]], [[dblclick]], [[mousedown]], [[mouseup]], [[mouseover]], [[mousemove]], [[mouseout]], [[drag]] , [[drop]]
 
