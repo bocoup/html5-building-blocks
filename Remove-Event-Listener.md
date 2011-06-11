@@ -1,21 +1,22 @@
-removeEventListener can be called on an EventTarget if the event handler was added with [[addEventListener]] using a [[named function]] as opposed to a [[anonymous function]].
+removeEventListener can be called on an 'eventTarget' if the event handler was added with [[addEventListener]] using a [[named function]] as opposed to a [[anonymous function]].
 
 ##Usage
-    var listener = function( eventObj ){
+    var namedCallbackFunction = function( eventObj ){
         // write code to respond to event in here
         // log eventObj to see the cool stuff on the event object
     }
     
     EventTarget
-      .addEventListener('eventType', listener, false);
+      .addEventListener('eventType', namedCallbackFunction, false);
 
     EventTarget
-      .removeEventListener('eventType', listener, false);
+      .removeEventListener('eventType', namedCallbackFunction, false);
 
 ### Signature
-    EventTarget.removeEventListener('eventType', callbackFunction, useCapture)
+    eventTarget.addEventListener('eventTarget', namedCallbackFunction, useCapture)
 
-* ** EventTarget**: an object against which an event may be dispatched (eg: the window, document, and html element, etc.)
-* **type**: A string representing the event type to listen for.
-* **callbackFunction**: The object that receives a notification when an event of the specified type occurs. This must be an object implementing the EventListener interface, or simply a JavaScript function.
-* **useCapture**: (optional) If true, useCapture indicates that the user wishes to initiate capture. After initiating capture, all events of the specified type will be dispatched to the registered listener before being dispatched to any EventTargets beneath it in the DOM tree. Events which are bubbling upward through the tree will not trigger a listener designated to use capture. See DOM Level 3 Events for a detailed explanation. Note that this parameter is not optional in all browser versions.
+* ** eventTarget**: an object against which an event may be dispatched (eg: the window, document, an element, etc.)
+* **type**: A string indicating the [[event|Events]] type to unbind from.
+* **namedCallbackFunction**: The named function to be unbound from the eventTarget.
+* **useCapture**: (optional) If true, useCapture specifies whether the EventListener being removed was registered as a capturing listener or not. If a listener was registered twice, one with capture and one without, each must be removed separately. Removal of a capturing listener does not affect a non-capturing version of the same listener, and vice versa.
+
