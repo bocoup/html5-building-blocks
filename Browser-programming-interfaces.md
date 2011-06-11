@@ -25,7 +25,7 @@ Get access to the user's current location, read and write files on file system, 
 Load data into the page without reloading the page: [[XMLHttpRequest Interface]], [[XHR2 Interface]], [[Web Sockets Interface]], [[Event Source Interface]]
 
 ##[[Cross Document communication]]
-Send messages between multiple contexts (between a page and it's iframes, to popups and other children windows, to external threads): [[Post Message Interface]], [[Web Wrkers Interface]]
+Send messages between multiple contexts (between a page and it's iframes, to popups and other children windows, to external threads): [[Post Message Interface]], [[Web Workers Interface]]
 
 ##[[New Stuff Comming]]
 These unimplemented interfaces are not yet standardized, but are really cool: [[Real time communication]], [[Frame refresh rate]], [[Tab visibility]], [[Fullscreen]]
