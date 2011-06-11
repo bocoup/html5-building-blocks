@@ -15,3 +15,8 @@ Tutorials to help you use the technologies above.
 Tools to help you work with the technologies above.
 
 [[DOM Inspector]], [[JavaScript Console]], [[JSFiddle]], [[JSPerf]]
+
+## [[Libraries and Frameworks]]
+Tools to help you work with the technologies above.
+
+[[jQuery]], [[Dojo]], [[YUI]], [[Sproutcore]], [[Phone Gap]]
